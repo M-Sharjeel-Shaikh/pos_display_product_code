@@ -1,6 +1,6 @@
 {
     "name": "POS: Display Internal Reference in Product List",
-    "version": "16.0",
+    "version": "17.0",
     "category": "Point of Sale",
     "summary": "Show product internal reference (default code) in the POS interface for better product identification and selection.",
     "description": """
