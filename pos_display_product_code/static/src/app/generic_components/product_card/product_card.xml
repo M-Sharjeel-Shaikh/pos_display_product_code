@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="pos_display_product_code.ProductCard" t-inherit="point_of_sale.ProductCard" t-inherit-mode="extension">
+        <xpath expr="//div[hasclass('product-content')]" position="after">
+            <t t-if="display_default_code == true">
+                <div class="d-flex flex-row px-2 justify-content-between rounded-bottom rounded-3 flex-shrink-1 m-1">
+                    <span class="badge rounded-pill text-bg-success fs-7" t-att-class="text-bg-warning">
+                        <t t-esc="default_code.value"/>                    
+                    </span>
+                </div>
+            </t>
+        </xpath>
+    </t>
+</templates>
