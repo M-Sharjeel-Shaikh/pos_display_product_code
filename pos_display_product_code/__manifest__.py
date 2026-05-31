@@ -1,5 +1,5 @@
 {
-    "name": "POS: Display Internal Reference in Product List",
+    "name": "POS Product Internal Reference Display | Product Code Visibility | SKU Display",
     "version": "16.0",
     "category": "Point of Sale",
     "summary": "Show product internal reference (default code) in the POS interface for better product identification and selection.",
